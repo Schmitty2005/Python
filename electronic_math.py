@@ -13,6 +13,6 @@ def res_freq (capacitance, inductance):
      return  frequency
 
 def high_pass_freq (capacitance, resistance):
-     ##TODO Finish this!
-     pass_freq = 0
+     pass_freq = 1 / (2 * math.pi * resistance * capacitance)
      return pass_freq
+
